@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>DROPDOWN task</title>
 </head>
@@ -11,28 +12,41 @@
 	<div class="navbar">
 		<ul>
 			<li>
-				<a href="#"> Home</a>
+				<a href="#"><span><i class="fa fa-home"></i>&nbsp</span>Home</a>
 
 				<div class="submenu-0">
 
 					<ul>
-						<li><a href="#">My Profile</a></li>
-						<li><a href="#">View Profile</a></li>
-						<li><a href="#">Logout</a></li>						
+						<li class="dropdown-7">
+							<a href="#"><span><i class="fa fa-user"></i>&nbsp</span>My Profile <span style="float: right;margin-right: 10px;"><i class="fa fa-arrow-down" ></i></span></a>
+
+							<div class="dropdown-8">
+								<ul>
+									<li><a href="#">Name</a></li>
+									<li><a href="#">College</a></li>
+									<li><a href="#">Branch</a></li>
+									<li><a href="#">Passing Year</a></li>
+								</ul>
+								
+							</div>
+
+						</li>
+						<li><a href="#"><span><i class="fa fa-users"></i>&nbsp</span>View Profile</a></li>
+						<li><a href="#"><span><i class="fa fa-sign-out"></i>&nbsp</span>Logout</a></li>						
 					</ul>
 				</div>
+
 				
 			</li>
 
 			<li>
-				<a href="#">Dashboard</a>
+				<a href="#"><span><i class="fa fa-columns"></i>&nbsp</span>Dashboard</a>
 
 				<div class="submenu-1">
 
 					<ul>
-						<li><a href="#">Name</a></li>
 						<li class="dropdown">
-							<a href="#">Submitted Tasks</a>
+							<a href="#">Submitted Tasks<span style="float: right;margin-right: 10px;"><i class="fa fa-arrow-down" ></i></span></a>
 
 							<div class="dropdown-1">
 								<ul>
@@ -48,7 +62,7 @@
 						</li>
 						<li><a href="#">Class Rank</a></li>
 						<li class="dropdown-3">
-							<a href="#">Late Submission</a>
+							<a href="#">Late Submission<span style="float: right;margin-right: 10px;"><i class="fa fa-arrow-down" ></i></span></a>
 							<div class="dropdown-4">
 								<ul>
 									<li><a href="#">HTML Task #2</a></li>
@@ -64,10 +78,10 @@
 
 			</li>
 
-			<li><a href="#">Timeline</a></li>
+			<li><a href="#"><span><i class="fa fa-hourglass"></i>&nbsp</span>Timeline</a></li>
 
 			<li>
-				<a href="#">My Courses</a>
+				<a href="#"><span><i class="fa fa-book"></i>&nbsp</span>My Courses</a>
 
 				<div class="submenu-2">
 
@@ -91,9 +105,8 @@
 
 			</li>
 
-			<li><a href="#">My Class</a></li>
-			<li><a href="#">Events</a></li>
-			<li><a href="#">Contacts</a></li>
+			<li><a href="#"><span><i class="fa fa-calendar"></i>&nbsp</span>Events</a></li>
+			<li><a href="#"><span><i class="fa fa-address-book"></i>&nbsp</span>Contacts</a></li>
 		</ul>
 	</div>
 
