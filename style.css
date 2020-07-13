@@ -1,0 +1,230 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url('https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/10/information-technology-logo.jpg');
+	background-repeat: no-repeat;
+}
+
+.navbar{
+	background-color: #33001b;
+	min-height: 60px;
+}
+
+.navbar ul{
+	display: inline-block;
+	padding: 12px;
+}
+
+.navbar ul li{
+	border-radius: 10px;
+	display: inline-block;
+	padding:2px;
+	margin-left: 40px;
+	
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+	margin: 5px;
+	font-weight: 600;
+}
+
+.navbar li:hover{
+	border: 2px #fffc00 solid;
+	box-shadow: 2px 2px 2px #fffc00;
+	
+}
+
+.navbar a:hover{
+	color: #fffc00;
+	font-size: 30px;
+}
+
+.submenu-0{
+	display: none;
+}
+
+.navbar li:hover .submenu-0{
+	/*border: 1px red solid;*/
+	background-color: #021B79;
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+
+}
+
+.navbar li:hover .submenu-0 ul li{
+	background-color: #021B79;
+}
+
+.navbar li:hover .submenu-0 ul li:hover{
+	border: 2px #fffc00 solid;
+	box-shadow: 2px 2px 2px #fffc00;
+}
+
+.submenu-1{
+	display: none;
+}
+
+.navbar li:hover .submenu-1{
+	/*border: 1px red solid;*/
+	background-color: #021B79;
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+
+}
+
+.navbar li:hover .submenu-1 ul li{
+	background-color: #021B79;
+}
+
+.navbar li:hover .submenu-1 ul li:hover{
+	border: 2px #fffc00 solid;
+	box-shadow: 2px 2px 2px #fffc00;
+}
+
+.submenu-2{
+	display: none;
+}
+
+.navbar li:hover .submenu-2{
+	/*border: 1px red solid;*/
+	background-color: #021B79;
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+
+}
+
+.navbar li:hover .submenu-2 ul li{
+	background-color: #021B79;
+}
+
+.navbar li:hover .submenu-2 ul li:hover{
+	border: 2px #fffc00 solid;
+	box-shadow: 2px 2px 2px #fffc00;
+}
+
+.dropdown-1{
+	display: none;
+}
+
+.dropdown:hover .dropdown-1{
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.dropdown:hover .dropdown-1 ul{
+	display: inline-block;
+
+}
+
+.dropdown:hover .dropdown-1 ul li{
+	display: block;
+	margin: 5px;
+
+}
+
+.dropdown:hover .dropdown-1 ul li a{
+	color: white;
+	font-size: 22px;	
+}
+
+.dropdown:hover .dropdown-1 ul li a:hover{
+	color: #fffc00;
+	font-size: 28px;
+}
+
+.dropdown-4{
+	display: none;
+}
+
+.dropdown-3:hover .dropdown-4{
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.dropdown-3:hover .dropdown-4 ul{
+	display: inline-block;
+
+}
+
+.dropdown-3:hover .dropdown-4 ul li{
+	display: block;
+	margin: 5px;
+
+}
+
+.dropdown-3:hover .dropdown-4 ul li a{
+	color: white;
+	font-size: 22px;	
+}
+
+.dropdown-3:hover .dropdown-4 ul li a:hover{
+	color: #fffc00;
+	font-size: 28px;
+}
+
+.dropdown-6{
+	display: none;
+}
+
+.dropdown-5:hover .dropdown-6{
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.dropdown-5:hover .dropdown-6 ul{
+	display: inline-block;
+
+}
+
+.dropdown-5:hover .dropdown-6 ul li{
+	display: block;
+	margin: 5px;
+
+}
+
+.dropdown-5:hover .dropdown-6 ul li a{
+	color: white;
+	font-size: 22px;	
+}
+
+.dropdown-5:hover .dropdown-6 ul li a:hover{
+	color: #fffc00;
+	font-size: 28px;
+}
