@@ -16,6 +16,7 @@ body{
 .navbar ul{
 	display: inline-block;
 	padding: 12px;
+
 }
 
 .navbar ul li{
@@ -23,6 +24,8 @@ body{
 	display: inline-block;
 	padding:2px;
 	margin-left: 40px;
+
+
 	
 }
 
@@ -33,11 +36,13 @@ body{
 	padding: 20px;
 	margin: 5px;
 	font-weight: 600;
+
 }
 
 .navbar li:hover{
 	border: 2px #fffc00 solid;
 	box-shadow: 2px 2px 2px #fffc00;
+
 	
 }
 
@@ -52,11 +57,11 @@ body{
 
 .navbar li:hover .submenu-0{
 	/*border: 1px red solid;*/
-	background-color: #021B79;
+	/*background-color: #021B79;*/
 	border-radius: 10px;
 	display: block;
 	position: absolute;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-left: 0px;
 	max-width: 100%;
 	padding: 0px;
@@ -64,7 +69,13 @@ body{
 }
 
 .navbar li:hover .submenu-0 ul li{
-	background-color: #021B79;
+	background-color: #141e30;
+	border: 1px solid white;
+	margin-left: 3px;
+	border-radius: 0px;
+	font-size: 30px;
+
+	
 }
 
 .navbar li:hover .submenu-0 ul li:hover{
@@ -78,11 +89,10 @@ body{
 
 .navbar li:hover .submenu-1{
 	/*border: 1px red solid;*/
-	background-color: #021B79;
 	border-radius: 10px;
 	display: block;
 	position: absolute;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-left: 0px;
 	max-width: 100%;
 	padding: 0px;
@@ -90,7 +100,11 @@ body{
 }
 
 .navbar li:hover .submenu-1 ul li{
-	background-color: #021B79;
+	background-color: #141e30;
+	border: 1px solid white;
+	margin-left: 3px;
+	border-radius: 0px;
+	font-size: 30px;
 }
 
 .navbar li:hover .submenu-1 ul li:hover{
@@ -104,11 +118,10 @@ body{
 
 .navbar li:hover .submenu-2{
 	/*border: 1px red solid;*/
-	background-color: #021B79;
 	border-radius: 10px;
 	display: block;
 	position: absolute;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-left: 0px;
 	max-width: 100%;
 	padding: 0px;
@@ -116,7 +129,12 @@ body{
 }
 
 .navbar li:hover .submenu-2 ul li{
-	background-color: #021B79;
+	background-color: #141e30;
+	border: 1px solid white;
+	margin-left: 3px;
+	border-radius: 0px;
+	font-size: 30px;
+
 }
 
 .navbar li:hover .submenu-2 ul li:hover{
@@ -225,6 +243,41 @@ body{
 }
 
 .dropdown-5:hover .dropdown-6 ul li a:hover{
+	color: #fffc00;
+	font-size: 28px;
+}
+
+.dropdown-8{
+	display: none;
+}
+
+.dropdown-7:hover .dropdown-8{
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.dropdown-7:hover .dropdown-8 ul{
+	display: inline-block;
+
+}
+
+.dropdown-7:hover .dropdown-8 ul li{
+	display: block;
+	margin: 5px;
+
+}
+
+.dropdown-7:hover .dropdown-8 ul li a{
+	color: white;
+	font-size: 22px;	
+}
+
+.dropdown-7:hover .dropdown-8 ul li a:hover{
 	color: #fffc00;
 	font-size: 28px;
 }
